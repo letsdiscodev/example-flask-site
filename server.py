@@ -1,3 +1,5 @@
+from datetime import datetime
+
 from flask import Flask
 
 app = Flask(__name__)
@@ -5,7 +7,8 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello_world():
-    return "hello again from disco!"
+    print("new web request")
+    return f"hello again from disco! the datetime is {datetime.now()}"
 
 
 if __name__ == "__main__":
