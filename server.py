@@ -8,7 +8,7 @@ app = Flask(__name__)
 @app.route("/")
 def hello_world():
     print("new web request")
-    return f"hello from disco! the datetime is {datetime.now()}"
+    return f"hello from disco!! the datetime is {datetime.now()}"
 
 
 if __name__ == "__main__":
