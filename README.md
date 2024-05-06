@@ -1,3 +1,3 @@
-# Example Disco Flask Site
+# Example disco Flask Site
 
-[See documentation here](https://docs.letsdisco.dev/deployment-guides/flask)
+[See the documentation here](https://docs.letsdisco.dev/deployment-guides/flask)
