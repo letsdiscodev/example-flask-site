@@ -1,3 +1,9 @@
-# Example disco Flask Site
+# example flask site
 
-[See the documentation here](https://docs.letsdisco.dev/deployment-guides/flask)
+the smallest flask app you can deploy with [disco](https://disco.cloud): one route, one page.
+
+- `server.py` serves a page with the server time
+- `disco.json` tells disco the app listens on port 8080
+- `Dockerfile` installs the requirements and runs it
+
+docs: https://disco.cloud/docs/
